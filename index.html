@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<!-- Primary Theme: awesome-design-md/posthog | Micro-Adaptation: astryx/shape-relationships (concentric nested radii: outer 16px, gap 8px, inner 8px) -->
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>一画搞懂AI (@yihuagaodongai) · 2K 高清全画幅手绘架构图鉴</title>
+  <meta name="description" content="一画搞懂AI (@yihuagaodongai) 官方 2K (2560×1440) 全画幅手绘视觉笔记原图库：涵盖 Transformer 全架构、MiniMax H3 + LTX-2.5 双引擎工作流、MCP 万用转接头协议、Context Engineering 与 Agent Skills 内存调度。" />
+  <meta property="og:title" content="一画搞懂AI · 2K 高清全画幅手绘架构图鉴" />
+  <meta property="og:description" content="不讲 PPT 黑话，用一张 2K 手绘全景架构草图把 AI 底层工程逻辑彻底讲透。点击查看/下载 2560×1440 原图并观看对应 YouTube 拆解视频。" />
+  <meta property="og:image" content="EP01-Transformer-Architecture-2K.jpg" />
+  <meta property="og:type" content="website" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "一画搞懂AI · 2K 高清全画幅手绘架构图鉴",
+    "description": "YouTube 频道 @yihuagaodongai 每期长视频配套 2560×1440 全画幅 12 卡视觉笔记原图与视频索引",
+    "itemListElement": [
+      {
+        "@type": "VideoObject",
+        "position": 1,
+        "name": "Transformer 到底在算什么？从 RNN 失忆到自注意力机制，10 分钟手绘全拆解",
+        "description": "用 12 张手绘视觉笔记卡片，从 2017 年前的三大死穴一路推演到 Q/K/V 自注意力与多头残差网络。",
+        "thumbnailUrl": ["EP01-Transformer-Architecture-2K.jpg"],
+        "uploadDate": "2026-11-14T10:00:20Z",
+        "embedUrl": "https://www.youtube.com/embed/GJGq6sXd9JA",
+        "contentUrl": "https://youtu.be/GJGq6sXd9JA"
+      },
+      {
+        "@type": "VideoObject",
+        "position": 2,
+        "name": "告别 AI 视频变脸！MiniMax H3 + LTX-2.5 双引擎工作流全拆解（12GB 显存跑通）",
+        "description": "空间与时间解耦：MiniMax H3 Image 锁死首尾帧空间锚点 + LTX-2.5 3D 潜空间运镜与音轨对嘴，ComfyUI 22 节点全拆解。",
+        "thumbnailUrl": ["EP02-MiniMax-H3-LTX25-ComfyUI-2K.jpg"],
+        "uploadDate": "2026-11-15T10:00:00Z",
+        "embedUrl": "https://www.youtube.com/embed/oBLOFNBrmyk",
+        "contentUrl": "https://youtu.be/oBLOFNBrmyk"
+      },
+      {
+        "@type": "VideoObject",
+        "position": 3,
+        "name": "为什么 80% AI 工具都接入了 MCP？AI Agent 的 USB-C 万用转接头与 100 工具实测",
+        "description": "从 M×N 胶水代码地狱到 M+N 架构降维，结合 RAG-MCP 论文实测拆解 100+ 工具准确率崩盘至 13.62% 的工程解法。",
+        "thumbnailUrl": ["EP03-MCP-Universal-Adapter-2K.jpg"],
+        "uploadDate": "2026-11-17T10:00:00Z",
+        "embedUrl": "https://www.youtube.com/embed/W7t01o8t5Z0",
+        "contentUrl": "https://youtu.be/W7t01o8t5Z0"
+      },
+      {
+        "@type": "VideoObject",
+        "position": 4,
+        "name": "为什么 100 万 Token 还是变笨？Context Engineering 与 Agent Skills 全拆解",
+        "description": "Karpathy LLM OS 内存模型：LLM=CPU, Context=RAM, Skills=Disk。结合 SkillsBench 论文拆解三大黄金法则。",
+        "thumbnailUrl": ["EP04-Context-Engineering-Agent-Skills-2K.jpg"],
+        "uploadDate": "2026-11-19T10:00:00Z",
+        "embedUrl": "https://www.youtube.com/embed/TJ0j0KL-_MQ",
+        "contentUrl": "https://youtu.be/TJ0j0KL-_MQ"
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --canvas: #eeefe9;
+      --surface-card: #fcfcfa;
+      --surface-soft: #e5e7e0;
+      --ink: #23251d;
+      --body: #4d4f46;
+      --mute: #6c6e63;
+      --hairline: #bfc1b7;
+      --primary: #f7a501;
+      --primary-pressed: #dd9001;
+      --accent-green: #2c8c66;
+      --accent-green-soft: #d9eddf;
+      --accent-red: #cd4239;
+      /* Concentric shape tokens (astryx/shape-relationships) */
+      --r-outer: 16px;
+      --pad-card: 8px;
+      --r-inner: 8px;
+      --r-pill: 999px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--canvas);
+      background-image: radial-gradient(#cfd2c6 1.2px, transparent 1.2px);
+      background-size: 24px 24px;
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "IBM Plex Sans", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.55;
+      padding-bottom: 64px;
+    }
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    header {
+      padding: 40px 0 28px;
+      border-bottom: 2px solid var(--ink);
+      margin-bottom: 32px;
+    }
+    .brand-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--surface-card);
+      border: 1.5px solid var(--ink);
+      border-radius: var(--r-pill);
+      padding: 4px 12px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--ink);
+      box-shadow: 2px 2px 0 var(--ink);
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: clamp(26px, 3.6vw, 38px);
+      font-weight: 800;
+      letter-spacing: -0.6px;
+      line-height: 1.25;
+      color: var(--ink);
+    }
+    .subtitle {
+      margin-top: 8px;
+      font-size: 16px;
+      color: var(--body);
+      max-width: 720px;
+    }
+    .cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: var(--r-inner);
+      border: 2px solid var(--ink);
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--ink);
+      background: var(--surface-card);
+      box-shadow: 3px 3px 0 var(--ink);
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+      cursor: pointer;
+    }
+    .btn:hover {
+      transform: translate(-1px, -1px);
+      box-shadow: 4px 4px 0 var(--ink);
+    }
+    .btn:active {
+      transform: translate(1px, 1px);
+      box-shadow: 1px 1px 0 var(--ink);
+    }
+    .btn.primary {
+      background: var(--primary);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+    .card {
+      background: var(--surface-card);
+      border: 2px solid var(--ink);
+      border-radius: var(--r-outer);
+      padding: var(--pad-card);
+      box-shadow: 5px 5px 0 var(--ink);
+    }
+    .card-inner {
+      border: 1.5px solid var(--hairline);
+      border-radius: var(--r-inner);
+      padding: 20px;
+      background: var(--surface-card);
+    }
+    .card-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .ep-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 800;
+      border: 1.5px solid var(--ink);
+      background: var(--primary);
+    }
+    .status-badge {
+      font-size: 12px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: var(--r-pill);
+      background: var(--accent-green-soft);
+      color: var(--accent-green);
+      border: 1px solid var(--accent-green);
+    }
+    .card-title {
+      font-size: clamp(19px, 2.4vw, 24px);
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: var(--ink);
+    }
+    .card-desc {
+      font-size: 15px;
+      color: var(--body);
+      margin-bottom: 16px;
+    }
+    .poster-frame {
+      position: relative;
+      border-radius: var(--r-inner);
+      overflow: hidden;
+      border: 2px solid var(--ink);
+      background: #f5f2ea;
+      cursor: zoom-in;
+    }
+    .poster-frame img {
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: transform 0.2s ease;
+    }
+    .poster-frame:hover img {
+      transform: scale(1.01);
+    }
+    .zoom-hint {
+      position: absolute;
+      right: 12px;
+      bottom: 12px;
+      background: rgba(35, 37, 29, 0.88);
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      pointer-events: none;
+    }
+    .card-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .Lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(20, 22, 18, 0.92);
+      z-index: 999;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      cursor: zoom-out;
+    }
+    .Lightbox.open {
+      display: flex;
+    }
+    .Lightbox img {
+      max-width: 96vw;
+      max-height: 92vh;
+      border-radius: var(--r-inner);
+      border: 2px solid #fff;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1.5px solid var(--hairline);
+      text-align: center;
+      font-size: 14px;
+      color: var(--mute);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="eyebrow">✏️ 03 · 速写板书硬核科普 ｜ 2560×1440 (2K) 无损原图库</div>
+      <div class="brand-bar">
+        <div>
+          <h1>一画搞懂AI · 全画幅手绘架构图鉴</h1>
+          <p class="subtitle">不讲 PPT 黑话，每期用一张 12 卡全画幅手绘架构草图，把大模型、视频工作流、MCP 协议与 Context Engineering 底层逻辑彻底画透。</p>
+        </div>
+        <div class="cta-group">
+          <a class="btn primary" href="https://www.youtube.com/@yihuagaodongai?sub_confirmation=1" target="_blank" rel="noopener">▶ 订阅 YouTube 频道 (@yihuagaodongai)</a>
+          <a class="btn" href="https://www.youtube.com/playlist?list=PLUr5_84YXE7k" target="_blank" rel="noopener">🗂️ 全景架构播放列表</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="grid">
+      <!-- EP01 -->
+      <article class="card" id="ep01">
+        <div class="card-inner">
+          <div class="card-header">
+            <span class="ep-badge">EP01 · Transformer 全架构</span>
+            <span class="status-badge">已上线 · 2K (2560×1440) + 简繁 CC 字幕</span>
+          </div>
+          <h2 class="card-title">Transformer 到底在算什么？从 RNN 失忆到自注意力机制，10 分钟手绘全拆解</h2>
+          <p class="card-desc">从「苹果」与「它」的语境谜题出发，一张 12 卡视觉笔记画透早期 AI 三大死穴、并行位置编码、Query/Key/Value 自注意力公式、Multi-Head 多头残差与 5 步自回归生成。</p>
+          <div class="poster-frame" onclick="openLightbox('EP01-Transformer-Architecture-2K.jpg')">
+            <img src="EP01-Transformer-Architecture-2K.jpg" alt="EP01 Transformer 全架构 12 卡视觉笔记 2K 原图" loading="eager" width="2560" height="1440" />
+            <span class="zoom-hint">🔍 点击放大查看 2560×1440 原图</span>
+          </div>
+          <div class="card-actions">
+            <div class="cta-group">
+              <a class="btn primary" href="https://youtu.be/GJGq6sXd9JA" target="_blank" rel="noopener">🎬 观看 YouTube 完整视频</a>
+              <a class="btn" href="EP01-Transformer-Architecture-2K.jpg" download="EP01-Transformer-Architecture-2K.jpg">⬇️ 下载 2K 原图 (1.1 MB)</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- EP02 -->
+      <article class="card" id="ep02">
+        <div class="card-inner">
+          <div class="card-header">
+            <span class="ep-badge">EP02 · MiniMax H3 + LTX-2.5</span>
+            <span class="status-badge">周日 18:00 解锁 · 2K (2560×1440) + 简繁 CC 字幕</span>
+          </div>
+          <h2 class="card-title">告别 AI 视频变脸！MiniMax H3 + LTX-2.5 双引擎工作流全拆解（12GB 显存跑通）</h2>
+          <p class="card-desc">空间与时间解耦：第一棒用 MiniMax H3 Image 锁死首尾帧空间光影锚点（CLIP-I 94.2%），第二棒交由 LTX-2.5 3D 潜空间完成运镜与原生音轨对嘴，附 ComfyUI 22 节点拓扑与 NVFP4/GGUF 12GB 显存算术。</p>
+          <div class="poster-frame" onclick="openLightbox('EP02-MiniMax-H3-LTX25-ComfyUI-2K.jpg')">
+            <img src="EP02-MiniMax-H3-LTX25-ComfyUI-2K.jpg" alt="EP02 MiniMax H3 + LTX-2.5 双引擎工作流 12 卡视觉笔记 2K 原图" loading="lazy" width="2560" height="1440" />
+            <span class="zoom-hint">🔍 点击放大查看 2560×1440 原图</span>
+          </div>
+          <div class="card-actions">
+            <div class="cta-group">
+              <a class="btn primary" href="https://youtu.be/oBLOFNBrmyk" target="_blank" rel="noopener">🎬 前往 YouTube 视频页</a>
+              <a class="btn" href="EP02-MiniMax-H3-LTX25-ComfyUI-2K.jpg" download="EP02-MiniMax-H3-LTX25-ComfyUI-2K.jpg">⬇️ 下载 2K 原图 (855 KB)</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- EP03 -->
+      <article class="card" id="ep03">
+        <div class="card-inner">
+          <div class="card-header">
+            <span class="ep-badge">EP03 · MCP 万用转接头</span>
+            <span class="status-badge">周二 18:00 解锁 · 2K (2560×1440) + 简繁 CC 字幕</span>
+          </div>
+          <h2 class="card-title">为什么 80% AI 工具都接入了 MCP？AI Agent 的 USB-C 万用转接头与 100 工具实测</h2>
+          <p class="card-desc">从 VS Code LSP 到 AI 时代的 Model Context Protocol：把 M×N 胶水代码降维成 M+N 标准协议，并结合 arXiv:2505.03275 (RAG-MCP) 实测揭示为什么挂载超过 20 个工具会导致准确率断崖崩盘。</p>
+          <div class="poster-frame" onclick="openLightbox('EP03-MCP-Universal-Adapter-2K.jpg')">
+            <img src="EP03-MCP-Universal-Adapter-2K.jpg" alt="EP03 MCP 万用转接头 12 卡视觉笔记 2K 原图" loading="lazy" width="2560" height="1440" />
+            <span class="zoom-hint">🔍 点击放大查看 2560×1440 原图</span>
+          </div>
+          <div class="card-actions">
+            <div class="cta-group">
+              <a class="btn primary" href="https://youtu.be/W7t01o8t5Z0" target="_blank" rel="noopener">🎬 前往 YouTube 视频页</a>
+              <a class="btn" href="EP03-MCP-Universal-Adapter-2K.jpg" download="EP03-MCP-Universal-Adapter-2K.jpg">⬇️ 下载 2K 原图 (1.3 MB)</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- EP04 -->
+      <article class="card" id="ep04">
+        <div class="card-inner">
+          <div class="card-header">
+            <span class="ep-badge">EP04 · Context Engineering &amp; Skills</span>
+            <span class="status-badge">周四 18:00 解锁 · 2K (2560×1440) + 简繁 CC 字幕</span>
+          </div>
+          <h2 class="card-title">为什么 100 万 Token 还是变笨？Context Engineering 与 Agent Skills 全拆解</h2>
+          <p class="card-desc">把上下文窗口当作珍贵的 RAM 来守护：拆解 Context Rot 腐烂曲线、Anthropic 四大支柱（Write / Select / Compress / Isolate）以及 SkillsBench (arXiv:2602.12670) 实证的渐进式 SKILL.md 架构。</p>
+          <div class="poster-frame" onclick="openLightbox('EP04-Context-Engineering-Agent-Skills-2K.jpg')">
+            <img src="EP04-Context-Engineering-Agent-Skills-2K.jpg" alt="EP04 Context Engineering 与 Agent Skills 12 卡视觉笔记 2K 原图" loading="lazy" width="2560" height="1440" />
+            <span class="zoom-hint">🔍 点击放大查看 2560×1440 原图</span>
+          </div>
+          <div class="card-actions">
+            <div class="cta-group">
+              <a class="btn primary" href="https://youtu.be/TJ0j0KL-_MQ" target="_blank" rel="noopener">🎬 前往 YouTube 视频页</a>
+              <a class="btn" href="EP04-Context-Engineering-Agent-Skills-2K.jpg" download="EP04-Context-Engineering-Agent-Skills-2K.jpg">⬇️ 下载 2K 原图 (1.3 MB)</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <p>📺 YouTube 频道：<a href="https://www.youtube.com/@yihuagaodongai" target="_blank" rel="noopener" style="color: inherit; font-weight: 700;">@yihuagaodongai（一画搞懂AI）</a> · 每周二 / 四 / 日 18:00 更新</p>
+    </footer>
+  </div>
+
+  <div class="Lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="2K Full Sheet Sketchnote Preview" />
+  </div>
+
+  <script>
+    function openLightbox(src) {
+      var lb = document.getElementById('lightbox');
+      var img = document.getElementById('lightbox-img');
+      img.src = src;
+      lb.classList.add('open');
+    }
+    function closeLightbox() {
+      var lb = document.getElementById('lightbox');
+      lb.classList.remove('open');
+    }
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeLightbox();
+    });
+  </script>
+</body>
+</html>
