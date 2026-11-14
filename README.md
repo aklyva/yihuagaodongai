@@ -26,7 +26,7 @@
 
 ## EP03 ｜ 装了 100 个 MCP 工具反而变蠢？一张图画透 MCP 万用转接头
 
-- 🎬 **YouTube 完整视频（周二 18:00 自动解锁）**：[https://youtu.be/W7t01o8t5Z0](https://youtu.be/W7t01o8t5Z0)
+- 🎬 **YouTube 完整视频（11月19日 11月22日 周日 18:00 自动解锁）**：[https://youtu.be/W7t01o8t5Z0](https://youtu.be/W7t01o8t5Z0)
 - 🖼️ **2K 高清全画幅原图（2560×1440）**：[`EP03-MCP-Universal-Adapter-2K.jpg`](EP03-MCP-Universal-Adapter-2K.jpg)
 
 [![EP03 MCP 万用转接头 12 卡视觉笔记总览](EP03-MCP-Universal-Adapter-2K.jpg)](https://youtu.be/W7t01o8t5Z0)
@@ -35,7 +35,7 @@
 
 ## EP04 ｜ 为什么 100 万 Token 还是变笨？Context Engineering 与 Agent Skills 全拆解
 
-- 🎬 **YouTube 完整视频（周四 18:00 自动解锁）**：[https://youtu.be/TJ0j0KL-_MQ](https://youtu.be/TJ0j0KL-_MQ)
+- 🎬 **YouTube 完整视频（11月22日 周日 18:00 自动解锁）**：[https://youtu.be/TJ0j0KL-_MQ](https://youtu.be/TJ0j0KL-_MQ)
 - 🖼️ **2K 高清全画幅原图（2560×1440）**：[`EP04-Context-Engineering-Agent-Skills-2K.jpg`](EP04-Context-Engineering-Agent-Skills-2K.jpg)
 
 [![EP04 Context Engineering 与 Agent Skills 12 卡视觉笔记总览](EP04-Context-Engineering-Agent-Skills-2K.jpg)](https://youtu.be/TJ0j0KL-_MQ)
