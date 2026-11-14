@@ -9,33 +9,33 @@
 ## EP01 ｜ 为什么老 AI 读不懂这两句话？一张图画透 Transformer 全架构
 
 - 🎬 **YouTube 完整视频**：[https://youtu.be/GJGq6sXd9JA](https://youtu.be/GJGq6sXd9JA)
-- 🖼️ **2K 高清全画幅原图（2560×1440）**：[`sketchnotes/EP01-Transformer-Architecture-2K.jpg`](sketchnotes/EP01-Transformer-Architecture-2K.jpg)
+- 🖼️ **2K 高清全画幅原图（2560×1440）**：[`EP01-Transformer-Architecture-2K.jpg`](EP01-Transformer-Architecture-2K.jpg)
 
-[![EP01 Transformer 全架构 12 卡视觉笔记总览](sketchnotes/EP01-Transformer-Architecture-2K.jpg)](https://youtu.be/GJGq6sXd9JA)
+[![EP01 Transformer 全架构 12 卡视觉笔记总览](EP01-Transformer-Architecture-2K.jpg)](https://youtu.be/GJGq6sXd9JA)
 
 ---
 
 ## EP02 ｜ AI 视频总是变脸？MiniMax H3 + LTX-2.5 双引擎工作流全拆解
 
 - 🎬 **YouTube 完整视频**：[https://youtu.be/oBLOFNBrmyk](https://youtu.be/oBLOFNBrmyk)
-- 🖼️ **2K 高清全画幅原图（2560×1440）**：[`sketchnotes/EP02-MiniMax-H3-LTX25-ComfyUI-2K.jpg`](sketchnotes/EP02-MiniMax-H3-LTX25-ComfyUI-2K.jpg)
+- 🖼️ **2K 高清全画幅原图（2560×1440）**：[`EP02-MiniMax-H3-LTX25-ComfyUI-2K.jpg`](EP02-MiniMax-H3-LTX25-ComfyUI-2K.jpg)
 
-[![EP02 MiniMax H3 + LTX-2.5 双引擎工作流 12 卡视觉笔记总览](sketchnotes/EP02-MiniMax-H3-LTX25-ComfyUI-2K.jpg)](https://youtu.be/oBLOFNBrmyk)
+[![EP02 MiniMax H3 + LTX-2.5 双引擎工作流 12 卡视觉笔记总览](EP02-MiniMax-H3-LTX25-ComfyUI-2K.jpg)](https://youtu.be/oBLOFNBrmyk)
 
 ---
 
 ## EP03 ｜ 装了 100 个 MCP 工具反而变蠢？一张图画透 MCP 万用转接头
 
 - 🎬 **YouTube 完整视频**：[https://youtu.be/W7t01o8t5Z0](https://youtu.be/W7t01o8t5Z0)
-- 🖼️ **2K 高清全画幅原图（2560×1440）**：[`sketchnotes/EP03-MCP-Universal-Adapter-2K.jpg`](sketchnotes/EP03-MCP-Universal-Adapter-2K.jpg)
+- 🖼️ **2K 高清全画幅原图（2560×1440）**：[`EP03-MCP-Universal-Adapter-2K.jpg`](EP03-MCP-Universal-Adapter-2K.jpg)
 
-[![EP03 MCP 万用转接头 12 卡视觉笔记总览](sketchnotes/EP03-MCP-Universal-Adapter-2K.jpg)](https://youtu.be/W7t01o8t5Z0)
+[![EP03 MCP 万用转接头 12 卡视觉笔记总览](EP03-MCP-Universal-Adapter-2K.jpg)](https://youtu.be/W7t01o8t5Z0)
 
 ---
 
 ## EP04 ｜ 为什么 100 万 Token 还是变笨？Context Engineering 与 Agent Skills 全拆解
 
 - 🎬 **YouTube 完整视频**：[https://youtu.be/TJ0j0KL-_MQ](https://youtu.be/TJ0j0KL-_MQ)
-- 🖼️ **2K 高清全画幅原图（2560×1440）**：[`sketchnotes/EP04-Context-Engineering-Agent-Skills-2K.jpg`](sketchnotes/EP04-Context-Engineering-Agent-Skills-2K.jpg)
+- 🖼️ **2K 高清全画幅原图（2560×1440）**：[`EP04-Context-Engineering-Agent-Skills-2K.jpg`](EP04-Context-Engineering-Agent-Skills-2K.jpg)
 
-[![EP04 Context Engineering 与 Agent Skills 12 卡视觉笔记总览](sketchnotes/EP04-Context-Engineering-Agent-Skills-2K.jpg)](https://youtu.be/TJ0j0KL-_MQ)
+[![EP04 Context Engineering 与 Agent Skills 12 卡视觉笔记总览](EP04-Context-Engineering-Agent-Skills-2K.jpg)](https://youtu.be/TJ0j0KL-_MQ)
